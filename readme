@@ -1,0 +1,8 @@
+In the Customize directory you can place controllers, entities, repositories ...etc for customization.
+
+Customizeディレクトリには、カスタマイズ用のコントローラやエンティティ、レポジトリなどを配置できます。
+
+EC-CUBE 3.n のカスタマイズのサンプルコードです。
+
+`/app/Customize` ディレクトリ配下に展開していただくとカスタマイズが適用されます。
+
