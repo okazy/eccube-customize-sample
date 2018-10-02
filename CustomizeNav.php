@@ -16,7 +16,7 @@ namespace Customize;
 use Eccube\Common\EccubeNav;
 
 class CustomizeNav implements EccubeNav
-{
+    {
     public static function getNav()
     {
         return [

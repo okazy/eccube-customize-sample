@@ -22,13 +22,11 @@ use Symfony\Component\EventDispatcher\EventSubscriberInterface;
  * `Shopping/index.twig` 内で `{{ Hogehoge }}` でBaseInfoが参照が可能となる。
  *
  * Class CustomizeEvent
- *
- * @package Customize
  */
 class CustomizeEvent implements EventSubscriberInterface
 {
     /**
-     * @var BaseInfoRepository $baseInfoRepository
+     * @var BaseInfoRepository
      */
     private $baseInfoRepository; // クラス変数を定義
 
